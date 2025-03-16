@@ -1,0 +1,22 @@
+@import "tailwindcss";
+/* @import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+/* Ensure the entire app takes up full height */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background for visibility */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
