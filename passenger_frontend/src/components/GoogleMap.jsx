@@ -7,7 +7,7 @@ import {
 } from "@react-google-maps/api";
 import { useState, useEffect, useMemo } from "react";
 
-const API_KEY = "AIzaSyAnMQ1Kb2Bsm8FZk96U33_ATy8AFLFkdhU"; // Replace with your API key
+const API_KEY = ""; // Replace with your API key
 
 const GoogleMapComponent = ({
   markerPosition,
